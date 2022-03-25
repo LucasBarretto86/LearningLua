@@ -243,7 +243,6 @@ We can write numeric constants with an optional decimal part, plus an optional d
 |   4   |  0.4  | 4.57e-3 | 0.3e12 | 5e+20 |
 | :---: | :---: | :-----: | :----: | :---: |
 
-
 ### Boolean
 
 Basic `true` and `false`, although `nil` is considered `false` in conditional statements empty strings and 0 are considered `true`
