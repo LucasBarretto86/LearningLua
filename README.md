@@ -48,7 +48,7 @@ print("Hello World")
 ```shell
 $ lua
 Lua 5.4.4  Copyright (C) 1994-2022 Lua.org, PUC-Rio
-> dofile("Learning/hello_world.lua")
+> dofile("src/hello_world.lua")
 ```
 
 ### Running multiple chunks on interactive mode
@@ -165,7 +165,7 @@ print(name)
 ```
 
 ```shell
-$ lua Learning/global_variable.lua
+$ lua src/global_variable.lua
 
 Lucas
 ```
@@ -183,7 +183,7 @@ print(full_name)
 ```
 
 ```shell
-$ lua Learning/local_variable.lua
+$ lua src/local_variable.lua
 
 Lucas Barretto e Silva
 ```
@@ -229,7 +229,7 @@ print(string.format( "Number %d", 100))
 ```
 
 ```shell
-$ lua Learning/string.lua 
+$ lua src/string.lua 
 
 Number: 100
 ```
@@ -265,7 +265,7 @@ print(alien_0["points"])
 ```
 
 ```shell
-$ lua Learning/table.lua
+$ lua src/table.lua
 
 green
 5
@@ -286,7 +286,7 @@ print(alien_0.y)
 ```
 
 ```shell
-$ lua Learning/table.lua
+$ lua src/table.lua
 
 25
 0
@@ -306,7 +306,7 @@ print(b.name)
 ```
 
 ```shell
-$ lua Learning/table.lua
+$ lua src/table.lua
 
 table: 0x55bced1e1ef0
 table: 0x55bced1e1ef0
@@ -330,7 +330,7 @@ end
 ```
 
 ```shell
-$ lua Learning/table.lua
+$ lua src/table.lua
 
 1       Phaser Gun
 2       Medic Kit
@@ -362,7 +362,7 @@ print("Hello World")
 ```
 
 ```shell
-$ lua Learning/hello_world.lua
+$ lua src/hello_world.lua
 
 Hello World
 ```
@@ -380,7 +380,7 @@ end
 ```
 
 ```shell
-$ lua Learning/for_loop.lua
+$ lua src/for_loop.lua
 0
 1
 2
@@ -405,7 +405,7 @@ math.sqrt(3)
 ```
 
 ```shell
-$ lua Learning/math.lua 
+$ lua src/math.lua 
 
 3.0
 ```
